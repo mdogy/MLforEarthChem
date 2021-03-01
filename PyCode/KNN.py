@@ -345,7 +345,7 @@ class KNN_builder:
                 padding.append(0)
         test_data = np.array(padding)
         test_data = test_data.reshape(1,-1)
-        return self._model.predict_proba(test_data))
+        return self._model.predict_proba(test_data)
 
 
 knn = KNN_builder()
